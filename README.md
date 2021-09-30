@@ -9,3 +9,4 @@ La primer columna corresponde al tipo de Actividad Económica de los negocios
 3: Comercio
 4: Servicios de comida
 5: Transpo
+sas\\
