@@ -5,6 +5,4 @@ El sigiuente conjunto de datos contiene información recolec(desde la segunda se
 # Información de los atribut.
 La primer columna corresponde al tipo de Actividad Económica de  los negocios
 
-1:Actividades profesionales
-
-2:Alojamiento
+1:Actividades profesionales     2: Alojamiento
