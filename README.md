@@ -2,7 +2,7 @@
 
 El sigiuente conjunto de datos contiene información recolec(desde la segunda semana de marzo hasta diciembre del 2020) mediante encuestas aplicadas a negocios de la ciudad de Choluteca, Honduras. 
 
-# Información de los  atributos.
+# Información de los  atributos
 La primera columna corresponde al tipo de Actividad Económica de los negocios.
 <br/><b>1</b>: Actividades profesionales <br/><b>2</b>: Alojamiento<br/>
 <b>3</b>Comercio <br/> <b>4</b>: Servicios de comida <br/> <b>5</b>: Transporte.
