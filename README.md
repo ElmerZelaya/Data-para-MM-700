@@ -1,4 +1,4 @@
-# Datos sobre las negocios
+# Sobre los datos
 
 El siguiente conjunto de datos contiene información recolectada desde la segunda semana de marzo hasta diciembre del 2020, mediante encuestas aplicadas a negocios de la ciudad de Choluteca, Honduras. 
 
