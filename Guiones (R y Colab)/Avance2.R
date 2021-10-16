@@ -41,7 +41,7 @@ barplot(prop.table(table(data$actividad)),col="deepskyblue4",ylim = c(0, 0.40),s
 table(data$financiamiento)
 # Frecuencia relativas
 prop.table(table(data$financiamiento))
-#Gráfica de frecuencia relativa
+#GrÃ¡fica de frecuencia relativa
 barplot(prop.table(table(data$financiamiento)), ylim = c(0, 0.35),col="deepskyblue4",space =
           0.1,xlab="Tipo de Financiamiento", ylab="Frecuencia relativa", 
         main="Tipo de Financiamiento")
@@ -52,17 +52,17 @@ barplot(prop.table(table(data$financiamiento)), ylim = c(0, 0.35),col="deepskybl
 table(data$tamano)
 # Frecuencia relativas
 prop.table(table(data$tamano))
-#Gráfica de frecuencia relativa
+#GrÃ¡fica de frecuencia relativa
 barplot(prop.table(table(data$tamano)),col="deepskyblue4",space = 0.1,ylim = c(0, 0.80),xlab
-        ="Tamaño de la Empresa", ylab="Frecuencia relativa", 
+        ="TamaÃ±o de la Empresa", ylab="Frecuencia relativa", 
         main="Tamano de la empresa")
 
 # creando una base de datos temporal 
-#(se utilizara para fines de una mejor comprensión de las gráficas y tablas)  
+#(se utilizara para fines de una mejor comprensiÃ³n de las grÃ¡ficas y tablas)  
 
 data_temp<-data                                                                 
 data_temp$estado<-factor(data_temp$estado,levels=c("0","1"),                    
-                         labels=c("censura","observación"))                     
+                         labels=c("censura","observaciÃ³n"))                     
 
 # analisis descriptivo de las censuras y observaciones (0 indica censura, 1 indica observacion).
 
@@ -117,7 +117,7 @@ table(data$tamano,data_temp$estado)/as.numeric(table(data$tamano))
 #grafica de frecuencia absoluta
 barplot(table(data$tamano,data_temp$estado),beside = TRUE,col=c("deepskyblue4","cyan3")
         ,ylim = c(0,210),ylab = "Frecuencia absoluta")
-legend(1500, 0.9,legend=c("Micro","Pequña"),
+legend(1500, 0.9,legend=c("Micro","PequÃ±a"),
        fill =c("deepskyblue4","cyan3"),x = "top", box.col = 4,box.lwd = 2)
 
 # Eliminando la data temporal  
@@ -126,7 +126,7 @@ rm("data_temp")
 #Tiempos de supervivencia.
 
 #Mostrando todos los tiempos(incluyendo cuando ocurre el evento y cuando no)
-#un signo "+" acompañando el numero indica cuando hubo censura
+#un signo "+" acompaÃ±ando el numero indica cuando hubo censura
 Surv ( data$tiempo , data$estado )  
 
 #tiempos donde se presenta el evento
