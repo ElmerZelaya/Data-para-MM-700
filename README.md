@@ -16,7 +16,7 @@ La primera columna corresponde al tipo de Actividad Económica de los negocios.
 # Sobre los códigos 
 
 Se implento el lenguaje de programación R para generar los códigos y obtener los resultados para el desarrollo de el proyecto.
-<br/>En el primer avance se realizó un análisis descriptivo del conjunto de datos.
-<br/>En el segundo avance se realizó la estimación de la función de supervivencia.
-<br/>En el tercer avance se realizó la comparación de la función de supervivencia por grupos
-<br/>En el cuarto avance se calculó los cocientes de riesgo para determinar que grupos tenían mayor o menor riesgo de cerrar operaciones. 
+<br/>En el segundo avance se realizó un análisis descriptivo del conjunto de datos.
+<br/>En el tercer avance se realizó la estimación de la función de supervivencia.
+<br/>En el cuarto avance se realizó la comparación de la función de supervivencia por grupos
+<br/>En el quinto avance se calculó los cocientes de riesgo para determinar que grupos tenían mayor o menor riesgo de cerrar operaciones. 
